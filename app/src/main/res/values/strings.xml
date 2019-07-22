@@ -1,0 +1,5 @@
+<resources>
+    <string name="transition_name" translatable="false">image_transition</string>
+    <string name="app_name">Swipe Layout</string>
+    <string name="dummy_user_name">Salih Demir</string>
+</resources>

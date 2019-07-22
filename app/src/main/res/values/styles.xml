@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/comfortaa_medium</item>
+        <item name="android:statusBarColor">@color/light_gray</item>
+        <item name="android:windowBackground">@color/light_gray</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowAnimationStyle">@style/MainActivityAnimationStyle</item>
+    </style>
+
+    <style name="DetailActivity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fontFamily">@font/comfortaa_medium</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/rounded_image_transition_enter</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/rounded_image_transition_return</item>
+    </style>
+
+    <style name="MainActivityAnimationStyle" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>
